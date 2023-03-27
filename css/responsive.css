@@ -320,10 +320,10 @@
 
 @media(max-width: 1366px) {
     .banner-style-one .banner-mock {
-        right: 5%;
+        right: 10%;
     }
     .banner-style-one.home-page-two .banner-mock {
-        right: 5%;
+        right: 15%;
     }
 }
 
