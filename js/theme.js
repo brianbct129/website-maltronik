@@ -151,7 +151,7 @@
         wow.init();
     }
 
-
+// with submenu
     // if ($('.main-navigation .navigation-box .sub-menu').length) {
     //     var subMenu = $('.main-navigation .sub-menu');
     //     subMenu.parent('li').children('a').append(function() {
@@ -173,7 +173,7 @@
     //     });
     // }
 
-    // without sub menu
+// without sub menu
      if ($('.main-navigation .navigation-box').length) {
         var mainNavToggler = $('.header-navigation .menu-toggler');
         mainNavToggler.on('click', function() {
@@ -262,5 +262,51 @@
         }
         thmbxSlider();
     });
+
+// pagination
+$(function() {
+    (function(name) {
+      var container = $('#pagination-' + name);
+      if (!container.length) return;
+      var sources = function () {
+        var result = [];
+  
+        for (var i = 1; i < 10; i++) {
+          result.push(i);
+        }
+  
+        return result;
+      }();
+  
+      var options = {
+        dataSource: sources,
+        callback: function (response, pagination) {
+          window.console && console.log(response, pagination);
+  
+          var dataHtml = '<div class="row">';
+  
+          $.each(response, function (index, item) {
+            dataHtml += '<div class="col-lg-4 col-md-6 col-sm-12">' + item + '</div>';
+          });
+  
+          dataHtml += '</div>';
+  
+          container.prev().html(dataHtml);
+        }
+      };
+  
+      //$.pagination(container, options);
+  
+      container.addHook('beforeInit', function () {
+        window.console && console.log('beforeInit...');
+      });
+      container.pagination(options);
+  
+      container.addHook('beforePageOnClick', function () {
+        window.console && console.log('beforePageOnClick...');
+        //return false
+      });
+    })('demo1');
+  })
 
 })(jQuery);
