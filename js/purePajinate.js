@@ -61,8 +61,8 @@ class purePajinate {
 		/* Calculate the number of pages needed */
 		var number_of_pages = Math.ceil(items.length / this.config.itemsPerPage);
 		/* Construct the navigation bar */
-		var more = '<li class="ellipse more"><span>...</span></li>';
-		var less = '<li class="ellipse less"><span>...</span></li>';
+		var more = '';
+		var less = '';
 		var first = !this.config.showFirstLast ? '' : '<li class="first_link ' + this.config.defaultClass + '"><a href="" aria-label="' + this.config.navAriaLabelFirst + '" onclick="return false;">' + this.config.navLabelFirst + '</a></li>';
 		var last = !this.config.showFirstLast ? '' : '<li class="last_link ' + this.config.defaultClass + '"><a href="" aria-label="' + this.config.navAriaLabelLast + '" onclick="return false;">' + this.config.navLabelLast + '</a></li>';
 		var previous = !this.config.showPrevNext ? '' : '<li class="previous_link ' + this.config.defaultClass + '"><a class="prev" href="" aria-label="' + this.config.navAriaLabelPrev + '" onclick="return false;">' + this.config.navLabelPrev + '</a></li>';
