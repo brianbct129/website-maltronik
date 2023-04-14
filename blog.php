@@ -1,33 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <title>Malltronik - E-Mall untuk kebutuhan anda</title>
-    <!-- mobile responsive meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!-- main template stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-
+<?php include "assets/head.php"?>
 <body>
     <div class="preloader"></div><!-- /.preloader -->
     <div class="page-wrapper">
@@ -164,92 +137,9 @@
 
             </div><!-- /.container -->
         </section><!-- /.blog-style-one -->
-        <footer class="site-footer">
-            <span class="bubble-1"></span>
-            <span class="bubble-2"></span>
-            <span class="bubble-3"></span>
-            <span class="bubble-4"></span>
-            <span class="bubble-5"></span>
-            <span class="bubble-6"></span>
-            <div class="container">
-                <div class="inner-container">
-                    <div class="row">
-                        <div class="col-lg-2 col-md-6 col-sm-12">
-                            <div class="footer-widget">
-                                <a href="index.html"><img src="images/logo-2-2.png" width="133" alt="Awesome Image" /></a>
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-lg-2 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="footer-widget">
-                                <div class="widget-title">
-                                    <h3>Address</h3>
-                                </div><!-- /.widget-title -->
-                                <ul class="contact-list">
-                                    <li>+62 811-4151-188</li>
-                                    <li>support@malltronik.com</li>
-                                    <li>Jl. Tanjung Alang No.12 Kota Makassar, Provinsi Sulawesi Selatan, Indonesia</li>
-                                </ul><!-- /.contact-list -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-lg-3 -->
-                        <div class="col-lg-2 col-md-6 col-sm-12">
-                            <div class="footer-widget">
-                                <div class="widget-title">
-                                    <h3>Explore</h3>
-                                </div><!-- /.widget-title -->
-                                <ul class="links-list">
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Our Team</a></li>
-                                    <li><a href="#">Features</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">How It Works</a></li>
-                                </ul>
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-lg-2 -->
-                        <div class="col-lg-2 col-md-6 col-sm-12">
-                            <div class="footer-widget">
-                                <div class="widget-title">
-                                    <h3>Links</h3>
-                                </div><!-- /.widget-title -->
-                                <ul class="links-list">
-                                    <li><a href="#">Help</a></li>
-                                    <li><a href="#">Support</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-lg-2 -->
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="footer-widget">
-                                <div class="widget-title">
-                                    <h3>Follow</h3>
-                                </div><!-- /.widget-title -->
-                                <div class="social-block">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                </div><!-- /.social-block -->
-                            </div><!-- /.footer-widget -->
-                        </div><!-- /.col-lg-3 -->
-                    </div><!-- /.row -->
-                </div><!-- /.inner-container -->
-            </div><!-- /.container -->
-        </footer><!-- /.site-footer -->
-        <div class="bottom-footer text-center">
-            <div class="container">
-                <p>&copy; copyright 2023 by <a href="#"> PT. Malltronik Jaya Semesta</a></p>
-            </div><!-- /.container -->
-        </div><!-- /.bottom-footer -->
+        <?php include "assets/footer.php"?>
     </div><!-- /.page-wrapper -->
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-long-arrow-up"></i></a>
     <!-- /.scroll-to-top -->
-   <script src="js/purePajinate.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/theme.js"></script>
-</body>
-
+   <?php include "assets/script.php"?>
 </html>
