@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "assets/head.php";?>
+<head>
+    <meta charset="UTF-8" />
+    <title>Malltronik - E-Mall untuk kebutuhan anda </title>
+    <?php include "assets/head.php"?>
+</head>
 
 <body>
     <div class="preloader"></div><!-- /.preloader -->
@@ -301,7 +305,7 @@
                                 <div class="inner-block">
                                     <img src="images/kk21-1.png" alt="Awesome Image" />
                                     <div class="date-block">
-                                        April 11, 2023
+                                        <?php echo date("F d, Y");?>
                                     </div><!-- /.date-block -->
                                 </div><!-- /.inner-block -->
                             </div><!-- /.image-block -->
@@ -325,7 +329,7 @@
                                 <div class="inner-block">
                                     <img src="images/unnamed-1-1.jpg" alt="Awesome Image" />
                                     <div class="date-block">
-                                        April 11, 2023
+                                        <?php echo date("F d, Y");?>
                                     </div><!-- /.date-block -->
                                 </div><!-- /.inner-block -->
                             </div><!-- /.image-block -->
@@ -349,7 +353,7 @@
                                 <div class="inner-block">
                                     <img src="images/Tenant-1-1.png" alt="Awesome Image" />
                                     <div class="date-block">
-                                        April 11, 2023
+                                        <?php echo date("F d, Y");?>
                                     </div><!-- /.date-block -->
                                 </div><!-- /.inner-block -->
                             </div><!-- /.image-block -->

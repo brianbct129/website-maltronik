@@ -783,6 +783,7 @@ hr.style-one {
       .single-blog-style-one .image-block .inner-block > img {
         width: 100%;
         transition: all .4s ease; }
+        
       .single-blog-style-one .image-block .inner-block .date-block {
         display: inline-block;
         position: absolute;

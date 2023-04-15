@@ -3,7 +3,7 @@
                 <div class="container clearfix">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="logo-box clearfix">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index.php">
                             <img src="images/logo-2-1.png" width="133" alt="Awesome Image" />
                         </a>
                         <button class="menu-toggler" data-target="#main-nav-bar">

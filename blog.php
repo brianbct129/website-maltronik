@@ -1,41 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include "assets/head.php"?>
+<head>
+    <meta charset="UTF-8" />
+    <title>Malltronik - E-Mall untuk kebutuhan anda </title>
+    <?php include "assets/head.php"?>
+</head> 
 <body>
     <div class="preloader"></div><!-- /.preloader -->
     <div class="page-wrapper">
-        <header class="site-header header-one home-page-two">
-            <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
-                <div class="container clearfix">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="logo-box clearfix">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="images/logo-2-1.png" width="133" alt="Awesome Image" />
-                        </a>
-                        <button class="menu-toggler" data-target="#main-nav-bar">
-                            <span class="fa fa-bars"></span>
-                        </button>
-                    </div><!-- /.logo-box -->
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="main-navigation" id="main-nav-bar">
-                        <ul class="one-page-scroll-menu navigation-box">
-                            <li class=" current scrollToLink">
-                                <a href="#banner">Home</a>
-                            </li>
-                            <li class="scrollToLink"><a href="index.html">Features</a></li>
-                            <li class="scrollToLink"><a href="index.html">Tenant</a></li>
-                            <li class="scrollToLink"><a href="index.html">Agent</a></li>
-                            <li class="scrollToLink"><a href="index.html">Testimonial</a></li>
-                            <li class="scrollToLink"><a href="blog.html">Blog</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                    <div class="right-side-box">
-                        <a href="https://api.whatsapp.com/send?phone=628114151188&text=Hallo,%20Saya%20ingin%20menanyakan%20tentang%20Malltronik" class="header-btn"><i class="fa fa-whatsapp mr-1"></i> Contact</a>
-                    </div><!-- /.right-side-box -->
-                </div>
-                <!-- /.container -->
-            </nav>
-        </header><!-- /.site-header -->
+    <?php include "assets/navigation.php"?>
 
         <section class="inner-banner">
             <div class="container">
@@ -57,7 +30,7 @@
                                 <div class="inner-block">
                                     <img src="images/kk21-1.png" alt="Awesome Image" />
                                     <div class="date-block">
-                                       April 11, 2023
+                                       <?php echo date("F d, Y");?>
                                     </div><!-- /.date-block -->
                                 </div><!-- /.inner-block -->
                             </div><!-- /.image-block -->
@@ -80,7 +53,7 @@
                                 <div class="inner-block">
                                     <img src="images/unnamed-1-1.jpg" alt="Awesome Image" />
                                     <div class="date-block">
-                                        April 11, 2023
+                                        <?php echo date("F d, Y");?>
                                     </div><!-- /.date-block -->
                                 </div><!-- /.inner-block -->
                             </div><!-- /.image-block -->
@@ -90,10 +63,10 @@
                                     <span class="sep">.</span>
                                     <a href="#">0 Comments</a>
                                 </div><!-- /.meta-info -->
-                                <h3><a href="blog-details.html">Seputar tentang Aplikasi Malltronik</a></h3>
+                                <h3><a href="about_us.php">Seputar tentang Aplikasi Malltronik</a></h3>
                                 <p>Terobosan terbaru bisnis masa depan yang memberikan sejuta kemudahan dengan memberikan semua kebutuhan kamu</p>
                                 <div class="line-block"></div><!-- /.line-block -->
-                                <a href="blog-details.html" class="more-link">Read More</a>
+                                <a href="about_us.php" class="more-link">Read More</a>
                             </div><!-- /.text-block -->
                         </div><!-- /.single-blog-style-one -->
                     </div><!-- /.col-lg-4 -->
@@ -103,7 +76,7 @@
                                 <div class="inner-block">
                                     <img src="images/Tenant-1-1.png" alt="Awesome Image" />
                                     <div class="date-block">
-                                        April 11, 2023
+                                        <?php echo date("F d, Y");?>
                                     </div><!-- /.date-block -->
                                 </div><!-- /.inner-block -->
                             </div><!-- /.image-block -->
