@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Seputar tentang Aplikasi Malltronik | Blog </title>
+    <title>Seputar tentang Aplikasi Malltronik | Malltronik</title>
     <?php include "assets/head.php"?>
 </head>
 
@@ -73,12 +73,48 @@
                                 <a href="#"><i class="fa fa-share-alt"></i></a>
                             </div><!-- /.social-block -->
                         </div><!-- /.share-block -->
-                        <hr class="mt-5">
-                        <div class="reply-block pt-5">
+                        <div class="author-block">
+                            <div class="image-block">
+                                <img src="images/author-1-1.jpg" alt="Awesome Image" />
+                            </div><!-- /.image-block -->
+                            <div class="text-block">
+                                <h3>Christine Eve</h3>
+                                <p>Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet.</p>
+                            </div><!-- /.text-block -->
+                        </div><!-- /.author-block -->
+                        <div class="comment-block">
                             <div class="title-line">
-                                <h3>Leave A Comments</h3>
+                                <h3>1 Comments</h3>
                             </div><!-- /.title-line -->
-                            <form action="#" class="comment-form">
+                            
+                            <div class="single-comment-one">
+                                <div class="image-block">
+                                    <div class="inner-block">
+                                        <img src="images/comment-1-1.jpg" alt="comment image">
+                                    </div><!-- /.inner-block -->
+                                </div><!-- /.image-block -->
+                                <div class="text-block">
+                                    <div class="top-block">
+                                        <div class="left-block">
+                                            <h3>Jessica Brown</h3>
+                                            <span class="date-line">20 April, 2019 <span class="sep">.</span> 4:00 pm</span>
+                                        </div><!-- /.left-block -->
+                                        <div class="right-block">
+                                            <a href="#" class="reply-btn">Reply</a>
+                                        </div><!-- /.right-block -->
+                                    </div><!-- /.top-block -->
+                                    <p>Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet.</p>
+                                </div><!-- /.text-block -->
+                            </div><!-- /.single-comment-one -->
+                            
+                        </div><!-- /.comment-block -->
+
+
+                        <div class="reply-block">
+                            <div class="title-line">
+                                <h3>Leave A comments</h3>
+                            </div><!-- /.title-line -->
+                            <form action="#" class="register_tenant_form">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <input type="text" name="name" placeholder="Your Name">
@@ -86,15 +122,6 @@
                                     <div class="col-lg-6">
                                         <input type="text" name="email" placeholder="Your Email">
                                     </div><!-- /.col-lg-6 -->
-                                    <div class="col-lg-6">
-                                        <input type="text" name="hp" placeholder="Your Whatsapp">
-                                    </div><!-- /.col-lg-6 -->
-                                    <div class="col-lg-6">
-                                        <select type="text" name="Jenis kelamin">
-                                            <option value="1">Laki</option>
-                                            <option value="2">Perempuan</option>
-                                        </select>
-                                    </div>
                                     <div class="col-lg-12">
                                         <textarea name="message" placeholder="Write here your message"></textarea>
                                         <button type="submit">Submit Comment</button>
@@ -102,6 +129,9 @@
                                 </div><!-- /.row -->
                             </form>
                         </div><!-- /.reply-block -->
+                        
+                            
+                            
                     </div><!-- /.col-lg-8 -->
                     <div class="col-lg-4">
                         <div class="sidebar">
