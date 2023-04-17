@@ -1,5 +1,5 @@
 ---
 deployment:
 tasks:
-- export DEPLOYPATH=/home/u1275440/public_html/malltronik.vestrylyestion.com
-- /bin/cp -r * $DEPLOYPATH
+- export DEPLOYPATH=/home/u1275440/public_html/
+- /bin/cp -R * $DEPLOYPATH
