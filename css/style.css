@@ -1110,9 +1110,9 @@ hr.style-one {
     .blog-details-page .comment-form button[type=submit]:hover {
       background-color: #FF7B48; }
 
-      .blog-details-page .register_tenant_form input,
-  .blog-details-page .register_tenant_form textarea,
-  .blog-details-page .register_tenant_form select
+      .blog-details-page .register_form input,
+  .blog-details-page .register_form textarea,
+  .blog-details-page .register_form select
   {
     border: none;
     outline: none;
@@ -1128,7 +1128,8 @@ hr.style-one {
     margin-bottom: 30px;
     padding-left: 30px; }
 
-   select.gender{
+   select.gender,
+   select.ctcm{
     appearance: none;
     background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
     background-repeat: no-repeat;
@@ -1142,11 +1143,11 @@ hr.style-one {
 
     
     
-  .blog-details-page .register_tenant_form textarea {
+  .blog-details-page .register_form textarea {
     height: 234px;
     padding-top: 20px; }
     
-  .blog-details-page .register_tenant_form button[type=submit] {
+  .blog-details-page .register_form button[type=submit] {
     width: 276px;
     border-radius: 4px;
     height: 84px;
@@ -1159,7 +1160,7 @@ hr.style-one {
     font-size: 20px;
     color: #FFFFFF;
     transition: all .4s ease; }
-    .blog-details-page .register_tenant_form button[type=submit]:hover {
+    .blog-details-page .register_form button[type=submit]:hover {
       background-color: #FF7B48; }
 
 /*
@@ -1489,15 +1490,15 @@ hr.style-one {
   .single-pricing-one.basic-pack .line {
     background-color: #5DDA6C; }
   .single-pricing-one.basic-pack .price-btn:hover {
-    background-color: #5DDA6C;
-    border-color: #5DDA6C; }
+    background-color: #FF7A48;
+    border-color: #FF7A48; }
   .single-pricing-one.biz-pack .price {
     color: #F0A734; }
   .single-pricing-one.biz-pack .line {
     background-color: #F0A734; }
   .single-pricing-one.biz-pack .price-btn:hover {
-    background-color: #F0A734;
-    border-color: #F0A734; }
+    background-color: #FF7A48;
+    border-color: #FF7A48; }
   .single-pricing-one span,
   .single-pricing-one a {
     display: block; }
@@ -1514,7 +1515,7 @@ hr.style-one {
         margin-top: 20px; }
   .single-pricing-one .price {
     color: #AD63F3;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 300;
     line-height: 1em; }
   .single-pricing-one .pack-name {
@@ -1549,9 +1550,9 @@ hr.style-one {
     padding: 16px 42.5px;
     transition: all .4s ease; }
     .single-pricing-one .price-btn:hover {
-      background-color: #ffd7c8;
+      background-color: #FF7A48;
       color: #fff;
-      border-color: #ffd7c8; }
+      border-color: #FF7A48; }
   .single-pricing-one .tag-line {
     font-size: 14px;
     text-transform: uppercase;

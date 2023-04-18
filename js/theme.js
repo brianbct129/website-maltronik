@@ -275,6 +275,90 @@ document.onreadystatechange = function(){
     }
 };
 
+// Whatsapp Tenant
+
+$(document).on('click','.send_formTenant', function(){
+    /* Inputan Formulir */
+    var input_name          = $("#wa_tenantName").val(),
+        input_email         = $("#wa_tenantEmail").val(),
+        input_phone         = $("#wa_tenantPhone").val(),
+        input_gender       = $("#wa_Tenantgender :selected").text(),
+        input_DOB           = $("#wa_TenantDOB").val(),
+        input_address       = $("#wa_TenantAlmt").val();
+ 
+    /* Pengaturan Whatsapp */
+    var walink      = 'https://web.whatsapp.com/send',
+        phone       = '628114151188',
+        text        = 'Halo saya ingin mendaftar jadi Tenant ';
+ 
+    /* Smartphone Support */
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        var walink = 'whatsapp://send';
+    }
+ 
+    if(input_name != "" && input_phone != "" && input_address != ""){
+        /* Whatsapp URL */
+        var checkout_whatsapp = walink + '?phone=' + phone + '&text=' + text + '%0A%0A' +
+            '*Nama* : ' + input_name + '%0A' +
+            '*Alamat Email* : ' + input_email + '%0A' +
+            '*Nomor Kontak / Wha    tsapp* : ' + input_phone + '%0A' +
+            '*Gender* : ' + input_gender + '%0A' +
+            '*DOB* : ' + input_DOB + '%0A' +
+            '*Alamat* : ' + input_address + '%0A';
+ 
+        /* Whatsapp Window Open */
+        window.open(checkout_whatsapp,'_blank');
+        document.getElementById("text-info").innerHTML = '<div class="alert alert-success">'+text_yes+'</div>';
+    } else {
+        document.getElementById("text-info").innerHTML = '<div class="alert alert-danger">'+text_no+'</div>';
+    }
+});
+
+// Whatsapp Agent
+
+$(document).on('click','.send_formAgent', function(){
+    /* Inputan Formulir */
+    var input_2name          = $("#wa_AgentName").val(),
+        input_2email         = $("#wa_AgentEmail").val(),
+        input_2phone         = $("#wa_AgentPhone").val(),
+        input_2gender       = $("#PricePlan :selected").text(),
+        input_2prov           = $("#wa_Prov").val(),
+        input_2CAB          = $("#wa_CAB").val(),
+        input_2kel          = $("#wa_Kel").val(),
+        input_2kec         = $("#wa_KEC").val(),
+        input_2address       = $("#wa_AgentAlmt").val();
+ 
+    /* Pengaturan Whatsapp */
+    var walink      = 'https://web.whatsapp.com/send',
+        phone       = '628114151188',
+        text        = 'Halo saya ingin mendaftar jadi OnePreneur ';
+ 
+    /* Smartphone Support */
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        var walink = 'whatsapp://send';
+    }
+ 
+    if(input_2name != "" && input_2phone != "" && input_2address != ""){
+        /* Whatsapp URL */
+        var checkout_whatsapp = walink + '?phone=' + phone + '&text=' + text + '%0A%0A' +
+            '*Investasi* : ' + input_2gender + '%0A' +
+            '*Nama* : ' + input_2name + '%0A' +
+            '*Alamat Email* : ' + input_2email + '%0A' +
+            '*Nomor Kontak / Whatsapp* : ' + input_2phone + '%0A' +
+            '*Prov* : ' + input_2prov + '%0A' +
+            '*Kabupaten* : ' + input_2CAB + '%0A' +
+            '*Kelurahan* : ' + input_2kel + '%0A' +
+            '*Kecamatan* : ' + input_2kec + '%0A' +
+            '*Alamat* : ' + input_2address + '%0A';
+ 
+        /* Whatsapp Window Open */
+        window.open(checkout_whatsapp,'_blank');
+        document.getElementById("text-info").innerHTML = '<div class="alert alert-success">'+text_yes+'</div>';
+    } else {
+        document.getElementById("text-info").innerHTML = '<div class="alert alert-danger">'+text_no+'</div>';
+    }
+});
+
 })(jQuery);
 
 const today = new Date();

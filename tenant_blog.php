@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Seputar Tenant Aman dan terpercaya | Malltronik </title>
+    <title>Seputar tentang Tenant Aman dan terpercaya | Malltronik </title>
     <?php include "assets/head.php"?>
 </head>
 
@@ -17,9 +17,11 @@
                 <ul class="thm-breadcrumb">
                     <li><a href="index.html">Home</a></li>
                     <li><span class="sep">.</span></li>
-                    <li><span class="page-title">Seputar Tenant aman dan terpercaya</span></li>
+                    <li><span class="page-title">Blog</span></li>
+                    <li><span class="sep">.</span></li>
+                    <li><span class="page-title">Tenant</span></li>
                 </ul><!-- /.thm-breadcrumb -->
-                <h2>Tenant</h2>
+                <h2>Seputar Tenant Aman dan terpercaya</h2>
             </div><!-- /.container -->
         </section><!-- /.inner-banner -->
         <section class="blog-details-page">
@@ -31,7 +33,7 @@
                                 <div class="inner-block">
                                     <img src="images/blog-s-1-2.png" alt="Awesome Image" />
                                     <div class="date-block">
-                                        30 April, 2019
+                                    <?php echo date("F d, Y");?>
                                     </div><!-- /.date-block -->
                                 </div><!-- /.inner-block -->
                             </div><!-- /.image-block -->
@@ -42,9 +44,46 @@
                                     <a href="#">0 Comments</a>
                                 </div><!-- /.meta-info -->
                                 <h3 class="post-title">Seputar Tenant aman dan terpercaya</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quisquam, cum
-                                    numquam sequi nisi eligendi ratione accusantium necessitatibus veritatis ducimus,
-                                    exercitationem, distinctio unde fuga animi? Nostrum laboriosam est error dolorum!
+                                <p>
+                                Tenant Malltronik adalah toko yang menawarkan berbagai macam produk dari berbagai merek ternama. 
+                                Tentunya, sebagai pemilik tenant, mereka ingin meyakinkan pelanggan bahwa toko mereka aman dan terpercaya. 
+                                Di bawah ini adalah beberapa alasan mengapa pelanggan bisa merasa aman dan percaya saat berbelanja di tenant Malltronik:
+                                </p>
+                                <br>
+                                <ul>
+                                    <li>
+                                        Produk Berkualitas
+                                        <p>Tenant Malltronik menjual produk-produk dari merek-merek ternama yang sudah terkenal akan kualitasnya. 
+                                            Pelanggan dapat yakin bahwa produk yang mereka beli di Tenant Malltronik memiliki kualitas yang baik dan dapat diandalkan.</p>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        Pelayanan Pelanggan yang Baik
+                                        <p>
+                                        Tenant Malltronik selalu memberikan pelayanan pelanggan yang baik, ramah, dan profesional.
+                                         Dalam proses transaksi dan pelayanan, Tenant akan memberikan informasi yang akurat 
+                                         dan membantu pelanggan
+                                          dalam memilih produk yang sesuai dengan kebutuhan mereka.
+                                        </p>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        Pelayanan Pelanggan yang Baik
+                                        <p>
+                                        Tenant Malltronik menawarkan harga yang terjangkau untuk setiap produk yang dijual. Hal ini memberikan kepercayaan kepada pelanggan bahwa mereka tidak akan dikenakan biaya yang tidak wajar atau terlalu mahal.
+                                        </p>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        Keamanan transaksi Online
+                                        <p>
+                                        Tenant Malltronik memberikan jaminan keamanan transaksi online yang aman dan terpercaya. Hal ini memberikan kepercayaan kepada pelanggan untuk melakukan transaksi online di Tenant Malltronik tanpa khawatir kehilangan data pribadi atau uang mereka.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <br>
+                                <p>
+                                    Dengan menawarkan produk berkualitas, garansi produk, pelayanan pelanggan yang baik, harga yang terjangkau, dan keamanan transaksi online, pelanggan dapat merasa aman dan percaya saat berbelanja di Tenant Malltronik. Tenant Malltronik Pastikan untuk selalu menjaga kualitas pelayanan dan produk yang ditawarkan serta berkomunikasi dengan pelanggan secara baik dan profesional.
                                 </p>
                             </div><!-- /.text-block -->
                         </div><!-- /.single-blog-style-one -->
@@ -63,32 +102,32 @@
                         <hr class="mt-5 mb-3">
                         <div class="reply-block pt-5">
                             <div class="title-line">
-                                <h3>Daftar Tenant</h3>
+                                <h3>Isi Form Pendaftaran Tenant</h3>
                             </div><!-- /.title-line -->
-                            <form action="#" class="register_tenant_form">
+                            <form action="#" class="register_form">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <input type="text" name="name" placeholder="Your Name">
+                                        <input required type="text" name="name" placeholder="Your Name" id="wa_tenantName">
                                     </div><!-- /.col-lg-6 -->
                                     <div class="col-lg-6">
-                                        <input type="email" name="email" placeholder="Your Email">
+                                        <input required type="email" name="email" placeholder="Your Email" id="wa_tenantEmail">
                                     </div><!-- /.col-lg-6 -->
                                     <div class="col-lg-6">
-                                        <input type="number" name="whatsapp" placeholder="Your whatsapp">
+                                        <input type="number" name="whatsapp" placeholder="Your whatsapp" id="wa_tenantPhone">
                                     </div><!-- /.col-lg-6 -->
                                     <div class="col-lg-3">
-                                        <select class="gender" name="gender">
-                                            <option>Pilih Gender</option>
-                                            <option value="1">Pria</option>
-                                            <option value="2">Perempuan</option>
+                                        <select required class="gender" name="gender" id="wa_Tenantgender">
+                                            <option hidden='hidden' selected='selected' value='default'>Pilih Gender</option>
+                                            <option value="Pria">Pria</option>
+                                            <option value="Perempuan">Perempuan</option>
                                         </select>
                                     </div><!-- /.col-lg-6 -->
                                     <div class="col-lg-3">
-                                        <input class="date" type="date" name="birthdate">
+                                        <input required class="date" type="date" name="birthdate" id="wa_TenantDOB">
                                     </div><!-- /.col-lg-6 -->
                                     <div class="col-lg-12">
-                                        <textarea name="address" placeholder="Alamat"></textarea>
-                                        <button class="w-100" type="submit">Daftar sekarang</button>
+                                        <textarea required  name="address" placeholder="Alamat" id="wa_TenantAlmt"></textarea>
+                                        <button class="w-100 send_formTenant" type="submit">Daftar sekarang</button>
                                     </div><!-- /.col-lg-12 -->
                                 </div><!-- /.row -->
                             </form>

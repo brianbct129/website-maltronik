@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Onepreneur | Malltronik</title>
+    <title>Seputar tentang Aplikasi Malltronik | Malltronik</title>
     <?php include "assets/head.php"?>
 </head>
 
@@ -30,7 +30,7 @@
                                 <div class="inner-block">
                                     <img src="images/blog-s-1-1.png" alt="Awesome Image" />
                                     <div class="date-block">
-                                        30 April, 2019
+                                    <?php echo date("F d, Y");?>
                                     </div><!-- /.date-block -->
                                 </div><!-- /.inner-block -->
                             </div><!-- /.image-block -->
@@ -114,7 +114,7 @@
                             <div class="title-line">
                                 <h3>Leave A comments</h3>
                             </div><!-- /.title-line -->
-                            <form action="#" class="register_tenant_form">
+                            <form action="#" class="comment-form">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <input type="text" name="name" placeholder="Your Name">

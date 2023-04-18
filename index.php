@@ -140,7 +140,7 @@
                                 <li><i class="fa fa-question"></i> Binggung cari tenant yang aman dan terpercaya ?</li>
                                 <li><i class="fa fa-question"></i> Khawatir punya tenant tapi malah zonk hasilnya ?</li>
                             </ul><!-- /.feature-lists -->
-                            <a href="#" class="feature-btn">Learn More</a>
+                            <a href="tenant_blog.php" class="feature-btn">Learn More</a>
                         </div><!-- /.content-block -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
@@ -157,15 +157,13 @@
                                     data-wow-duration="1000ms" />
                                 <h2>Yuk, Bergabung Menjadi <br> <b>Agent Malltronik.</b></h2>
                             </div><!-- /.block-title -->
-                            <p>Kenapa Harus Bermitra Dengan Malltronik ?</p>
+                            <p>Apa kamu ingin berbisnis <br> Tanpa harus menyiapkan produk dan modal besar?</p>
                             <ul class="feature-lists">
-                                <li><i class="fa fa-check"></i> Berpengalaman Lebih Dari 9 tahun. </li>
-                                <li><i class="fa fa-check"></i> Gratis mendaftrakan tenant tanpa batas.</li>
-                                <li><i class="fa fa-check"></i> Support free ongkir untuk semua produk dari tenant.</li>
-                                <li><i class="fa fa-check"></i> Server, security menggunakan sistem metode serba
-                                    otomatis.</li>
+                                <li><i class="fa fa-question"></i> Ingin memulai bisnis tapi tidak punya modal besar ?</li>
+                                <li><i class="fa fa-question"></i> Mau memiliki mall online, tapi belum memiliki aplikasi ?</li>
+                                <li><i class="fa fa-question"></i> Mau memiliki bisnis online tapi tidak punya produk ?</li>
                             </ul><!-- /.feature-lists -->
-                            <a href="#" class="feature-btn">Learn More</a>
+                            <a href="onepreneur_blog.php" class="feature-btn">Learn More</a>
                         </div><!-- /.content-block -->
                     </div><!-- /.col-lg-6 -->
                     <div class="col-lg-6">
