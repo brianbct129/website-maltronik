@@ -10,7 +10,7 @@
                 </div><!-- /.inner-block -->
             </div><!-- /.image-block -->
             <div class="text-block">
-                <h3><a href="#">Basic rules of running web agency</a></h3>
+                <h3><a href="about_us_blog.php">Seputar tentang Aplikasi Malltronik</a></h3>
             </div><!-- /.text-block -->
         </div><!-- /.widget-single-post -->
         <div class="widget-single-post">
@@ -20,7 +20,7 @@
                 </div><!-- /.inner-block -->
             </div><!-- /.image-block -->
             <div class="text-block">
-                <h3><a href="#">Introducing latest app features</a></h3>
+                <h3><a href="onepreneur_blog.php">Seputar Tentang Aplikasi Onepreneur</a></h3>
             </div><!-- /.text-block -->
         </div><!-- /.widget-single-post -->
         <div class="widget-single-post">
@@ -30,7 +30,7 @@
                 </div><!-- /.inner-block -->
             </div><!-- /.image-block -->
             <div class="text-block">
-                <h3><a href="#">Become the best sale marketer</a></h3>
+                <h3><a href="tenant_blog.php">Seputar tentang Tenant aman dan terpercaya</a></h3>
             </div><!-- /.text-block -->
         </div><!-- /.widget-single-post -->
     </div><!-- /.post-wrapper -->
@@ -40,11 +40,8 @@
         <h3>Categories</h3>
     </div><!-- /.widget-title -->
     <ul class="links-list">
-        <li><a href="#">Business</a></li>
-        <li><a href="#">Introductions</a></li>
-        <li><a href="#">One Page Template</a></li>
-        <li><a href="#">Parallax Effects</a></li>
-        <li><a href="#">New Technologies</a></li>
-        <li><a href="#">Video Backgrounds</a></li>
+        <li><a href="#">Onepreneur</a></li>
+        <li><a href="#">Tenant</a></li>
+        <li><a href="#">Malltronik</a></li>
     </ul><!-- /.links-list -->
 </div><!-- /.single-sidebar categories-widget -->

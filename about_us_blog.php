@@ -78,8 +78,11 @@
                                 <img src="images/author-1-1.jpg" alt="Awesome Image" />
                             </div><!-- /.image-block -->
                             <div class="text-block">
-                                <h3>Christine Eve</h3>
-                                <p>Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet.</p>
+                                <h3>Hengky Rachmat Jaya</h3>
+                               <p>
+                                    <b>Malltronik</b> merupakan pioneer inovasi terbaru yang bergerak di bidang IT.
+                                    Dikemas secara spesial dengan konsep "One Touch Click"...
+                               </p>
                             </div><!-- /.text-block -->
                         </div><!-- /.author-block -->
                         <div class="comment-block">
@@ -90,7 +93,7 @@
                             <div class="single-comment-one">
                                 <div class="image-block">
                                     <div class="inner-block">
-                                        <img src="images/comment-1-1.jpg" alt="comment image">
+                                        <img src="images/blank-profile-picture-973460_1280.png" alt="comment image">
                                     </div><!-- /.inner-block -->
                                 </div><!-- /.image-block -->
                                 <div class="text-block">

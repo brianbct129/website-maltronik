@@ -87,32 +87,32 @@
                 </div><!-- /.block-title -->
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="single-service-one">
+                        <div class="single-service-one text-lg-left text-sm-center text-center">
                             <div class="hover-block"></div><!-- /.hover-block -->
                             <i class="fa fa-shopping-basket"></i>
                             <h3>Belanja COD <br> TERMURAH</h3>
                             <p>Belanja COD termurah dengan sensasi pengiriman Express</p>
-                            <div class="line-block"></div><!-- /.line-block -->
+                            <div class="line-block mx-auto ml-sm-0"></div><!-- /.line-block -->
                             <a href="#" class="more-link">Baca Selengkapnya</a>
                         </div><!-- /.single-service-one -->
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="single-service-one">
+                        <div class="single-service-one text-lg-left text-sm-center text-center">
                             <div class="hover-block"></div><!-- /.hover-block -->
                             <i class="fa fa-cutlery"></i>
                             <h3>Belanja Sembako <br> TERMURAH</h3>
                             <p>Belanja Sembako Termurah dengan Sistem Gratis Ongkir.</p>
-                            <div class="line-block"></div><!-- /.line-block -->
+                            <div class="line-block mx-auto ml-sm-0"></div><!-- /.line-block -->
                             <a href="#" class="more-link">Baca Selengkapnya</a>
                         </div><!-- /.single-service-one -->
                     </div><!-- /.col-lg-4 -->
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="single-service-one">
+                        <div class="single-service-one text-lg-left text-sm-center text-center">
                             <div class="hover-block"></div><!-- /.hover-block -->
                             <i class="fa fa-truck"></i>
                             <h3>Pengiriman Express <br> PROFESIONAL </h3>
                             <p>Pengiriman Cepat, Pesan Sekarang Dapat Sekarang</p>
-                            <div class="line-block"></div><!-- /.line-block -->
+                            <div class="line-block mx-auto ml-sm-0"></div><!-- /.line-block -->
                             <a href="#" class="more-link">Baca Selengkapnya</a>
                         </div><!-- /.single-service-one -->
                     </div><!-- /.col-lg-4 -->
@@ -123,13 +123,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="image-block">
+                        <div class="image-block ml-5 pl-5 pl-sm-0 ml-sm-0">
                             <img src="images/moc-1-1.png" alt="Awesome Image" />
                         </div><!-- /.image-block -->
                     </div><!-- /.col-lg-6 -->
                     <div class="col-lg-6">
                         <div class="content-block">
-                            <div class="block-title ">
+                            <div class="block-title text-lg-left text-sm-center text-center">
                                 <img src="images/cropped-LOGO-1-2.png" alt="Awesome Image" class="wow rotateIn"
                                     data-wow-duration="1000ms" />
                                 <h2>Yuk, Bergabung Menjadi <br> <b>Tenant Malltronik.</b></h2>
@@ -152,7 +152,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="content-block">
-                            <div class="block-title ">
+                            <div class="block-title text-lg-left text-sm-center text-center">
                                 <img src="images/cropped-LOGO-1-2.png" alt="Awesome Image" class="wow rotateIn"
                                     data-wow-duration="1000ms" />
                                 <h2>Yuk, Bergabung Menjadi <br> <b>Agent Malltronik.</b></h2>
